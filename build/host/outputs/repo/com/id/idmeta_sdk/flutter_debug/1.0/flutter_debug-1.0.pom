@@ -15,31 +15,37 @@
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>flutter_embedding_debug</artifactId>
-      <version>1.0.0-edd8546116457bdf1c5bdfb13ecb9463d2bb5ed4</version>
+      <version>1.0.0-c4cd48e186460b32d44585ce3c103271ab676355</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>armeabi_v7a_debug</artifactId>
-      <version>1.0.0-edd8546116457bdf1c5bdfb13ecb9463d2bb5ed4</version>
+      <version>1.0.0-c4cd48e186460b32d44585ce3c103271ab676355</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>arm64_v8a_debug</artifactId>
-      <version>1.0.0-edd8546116457bdf1c5bdfb13ecb9463d2bb5ed4</version>
+      <version>1.0.0-c4cd48e186460b32d44585ce3c103271ab676355</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>x86_64_debug</artifactId>
-      <version>1.0.0-edd8546116457bdf1c5bdfb13ecb9463d2bb5ed4</version>
+      <version>1.0.0-c4cd48e186460b32d44585ce3c103271ab676355</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>x86_debug</artifactId>
-      <version>1.0.0-edd8546116457bdf1c5bdfb13ecb9463d2bb5ed4</version>
+      <version>1.0.0-c4cd48e186460b32d44585ce3c103271ab676355</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter.plugins.flutter_plugin_android_lifecycle</groupId>
+      <artifactId>flutter_plugin_android_lifecycle_debug</artifactId>
+      <version>1.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -51,12 +57,6 @@
     <dependency>
       <groupId>com.mr.flutter.plugin.filepicker</groupId>
       <artifactId>file_picker_debug</artifactId>
-      <version>1.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.flutter.plugins.flutter_plugin_android_lifecycle</groupId>
-      <artifactId>flutter_plugin_android_lifecycle_debug</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
     </dependency>
