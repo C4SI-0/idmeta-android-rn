@@ -12,6 +12,7 @@
     "build/",
     "README.md",
     "android",
+    "src/",
     "index.js",
     "build"
   ],
