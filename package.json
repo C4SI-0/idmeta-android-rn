@@ -1,0 +1,62 @@
+{
+  "name": "idmeta-android-rn",
+  "title": "Idmeta Android Rn Beta",
+  "version": "1.0.0",
+  "description": "`idmeta-android-rn` is a React Native library integrated with the Idmeta SDK, providing seamless integration and functionality for your React Native applications.",
+  "main": "build/rn/commonjs/index.js",
+  "module": "build/rn/module/index.js",
+  "types": "build/rn/typescript/index.d.ts",
+  "react-native": "src/index",
+  "source": "src/index",
+  "files": [
+    "build/",
+    "README.md",
+    "android",
+    "index.js",
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C4SI-0/idmeta-android-rn.git",
+    "baseUrl": "https://github.com/C4SI-0/idmeta-android-rn"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Timoor Ahmed",
+    "email": "taimoorahm.ch@gmail.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": ">=17.0.1",
+    "react-native": ">=0.65.0 <1.0.x"
+  },
+  "peerDependenciesMeta": {
+    "react-native": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "@types/react-native": "0.72.2",
+    "ncp": "^2.0.0",
+    "react-native-builder-bob": "^0.21.2",
+    "rimraf": "^3.0.2",
+    "typescript": "4.8.4"
+  },
+  "resolutions": {
+    "@types/react": "^18.0.24"
+  },
+  "react-native-builder-bob": {
+    "source": "src",
+    "output": "build/rn",
+    "targets": [
+      "commonjs",
+      "module",
+      "typescript"
+    ]
+  }
+}
