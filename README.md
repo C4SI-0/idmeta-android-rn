@@ -122,7 +122,7 @@ error: Error: Unable to resolve module idmeta-android-rn from. idmeta-android-rn
 ```sh
 yarn install
 ```
-Do "Yarn Intall" and build the app. It will resolve the issue 
+Do "Yarn Install" and build the app. It will resolve the issue 
 
 
 ## Usage
@@ -130,7 +130,7 @@ Do "Yarn Intall" and build the app. It will resolve the issue
 ```js
 import React from 'react';
 import { SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, View } from 'react-native';
-import StartIdmetaFlowButton from 'idmeta-android-rn';  // Import the local module directly
+import StartIdmetaFlowButton from 'idmeta-android-rn';  // Import the module directly
 
 const App = (): React.JSX.Element => {
   const flowId = 'YourFlowId'; // Replace with actual flowId
