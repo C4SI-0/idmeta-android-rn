@@ -13,10 +13,10 @@
 // These defaults should reflect the SDK versions used by
 // the minimum React Native version supported.
 def DEFAULT_COMPILE_SDK_VERSION = 34
-def DEFAULT_BUILD_TOOLS_VERSION = '30.0.2'
-def DEFAULT_MIN_SDK_VERSION = 21
+def DEFAULT_BUILD_TOOLS_VERSION = '34.0.0'
+def DEFAULT_MIN_SDK_VERSION = 23
 def DEFAULT_TARGET_SDK_VERSION = 34
-
+def DEFAULT_KOTLIN_VERSION = '1.9.22'
 def safeExtGet(prop, fallback) {
     rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
 }
@@ -30,7 +30,7 @@ buildscript {
     // module dependency in an application project.
     // ref: https://docs.gradle.org/current/userguide/tutorial_using_tasks.html#sec:build_script_external_dependencies
     if (project == rootProject) {
-        def kotlin_version = rootProject.ext.has('kotlinVersion') ? rootProject.ext.get('kotlinVersion') : '1.7.0'
+        def kotlin_version = rootProject.ext.has('kotlinVersion') ? rootProject.ext.get('kotlinVersion') : '1.9.22'
 
         repositories {
             google()
@@ -40,7 +40,7 @@ buildscript {
         dependencies {
             // This should reflect the Gradle plugin version used by
             // the minimum React Native version supported.
-            classpath 'com.android.tools.build:gradle:4.2.2'
+            classpath 'com.android.tools.build:gradle:8.2.0'
             classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         }
     }
@@ -53,9 +53,6 @@ android {
     buildTypes {
         profile {
             initWith debug
-        }
-        release {
-            minifyEnabled true
         }
     }
     defaultConfig {
@@ -94,7 +91,7 @@ repositories {
 dependencies {
     def kotlin_version = rootProject.ext.has('kotlinVersion') ? rootProject.ext.get('kotlinVersion') : DEFAULT_KOTLIN_VERSION
 
-      debugImplementation 'com.id.idmeta_sdk:flutter_debug:1.0'
+    debugImplementation 'com.id.idmeta_sdk:flutter_debug:1.0'
     profileImplementation 'com.id.idmeta_sdk:flutter_profile:1.0'
     releaseImplementation 'com.id.idmeta_sdk:flutter_release:1.0'
     //noinspection GradleDynamicVersion

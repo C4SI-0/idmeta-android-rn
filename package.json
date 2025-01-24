@@ -8,6 +8,7 @@
   "types": "build/rn/typescript/index.d.ts",
   "react-native": "src/index",
   "source": "src/index",
+  "nativePackage": true,
   "files": [
     "build/",
     "README.md",
