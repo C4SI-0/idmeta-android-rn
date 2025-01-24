@@ -15,9 +15,7 @@
 
 ## Installation
 
-Note: "idmeta-android-rn" project is still in development and is tested upto **RN-0.74** version , this is the beta release for testing.
-**Use ReactNative 0.74 Version For This Library.**
-
+Note: "idmeta-android-rn" project is still in development and is tested upto **RN-0.77** version , this is the beta release for testing.
 To install the library, run:
 
 ```sh
