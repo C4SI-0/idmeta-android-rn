@@ -82,31 +82,20 @@ buildTypes {
 Add Proguard Rules
 
 ```Proguard Rules
-
-
-# Keep necessary Flutter-related classes
--keep class io.flutter.** { *; }
-
 # Keep all classes related to Play Core library
 -keep class com.google.android.play.core.** { *; }
 -keepclassmembers class com.google.android.play.core.** { *; }
 -dontwarn com.google.android.play.core.**
 
-# Keep Flutter-specific classes
+
+-keep class io.flutter.** { *; }
 -keep class io.flutter.app.** { *; }
 -keep class io.flutter.plugins.** { *; }
 -keep class io.flutter.embedding.** { *; }
 -keep class io.flutter.util.** { *; }
-
-
-# Prevent obfuscation of the Flutter engine and activity classes
 -keep class io.flutter.embedding.engine.** { *; }
 -keep class io.flutter.embedding.android.FlutterActivity { *; }
-
-# Prevent obfuscation of the Flutter plugin registrant
 -keep class io.flutter.plugins.GeneratedPluginRegistrant { *; }
-
-# Keep all method names and classes involved in MethodChannel communication
 -keepclassmembers class ** extends io.flutter.plugin.common.MethodChannel$MethodCallHandler {
     public void onMethodCall(io.flutter.plugin.common.MethodCall, io.flutter.plugin.common.MethodChannel$Result);
 }
