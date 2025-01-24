@@ -15,7 +15,8 @@
 
 ## Installation
 
-Note: "idmeta-android-rn" project is still in development, this is the beta release for testing.
+Note: "idmeta-android-rn" project is still in development and is tested upto **RN-0.74** version , this is the beta release for testing.
+**Use ReactNative 0.74 Version For This Library.**
 
 To install the library, run:
 
@@ -71,7 +72,7 @@ buildTypes {
     release {
         // Caution! In production, you need to generate your own keystore file.
         // see https://reactnative.dev/docs/signed-apk-android.
-        signingConfig signingConfigs.debug
+        signingConfig signingConfigs.release
         minifyEnabled true
         shrinkResources true
         proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
@@ -84,8 +85,21 @@ Add Proguard Rules
 
 ```Proguard Rules
 
+
 # Keep necessary Flutter-related classes
 -keep class io.flutter.** { *; }
+
+# Keep all classes related to Play Core library
+-keep class com.google.android.play.core.** { *; }
+-keepclassmembers class com.google.android.play.core.** { *; }
+-dontwarn com.google.android.play.core.**
+
+# Keep Flutter-specific classes
+-keep class io.flutter.app.** { *; }
+-keep class io.flutter.plugins.** { *; }
+-keep class io.flutter.embedding.** { *; }
+-keep class io.flutter.util.** { *; }
+
 
 # Prevent obfuscation of the Flutter engine and activity classes
 -keep class io.flutter.embedding.engine.** { *; }
