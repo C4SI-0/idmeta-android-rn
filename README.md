@@ -42,6 +42,7 @@ Add the following code under buildscript.
 
 allprojects {
     repositories {
+        maven { url 'https://maven.microblink.com' }
         maven {
             url uri("../../node_modules/idmeta-android-rn/build/host/outputs/repo")
         }
@@ -50,6 +51,7 @@ allprojects {
         }
     }
 }
+
 
 ```
 
