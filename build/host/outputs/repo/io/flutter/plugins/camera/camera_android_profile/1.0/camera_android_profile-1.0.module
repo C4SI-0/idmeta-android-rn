@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "7.5"
+      "version": "8.0"
     }
   },
   "variants": [
@@ -27,7 +27,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_profile",
           "version": {
-            "requires": "1.0.0-c4cd48e186460b32d44585ce3c103271ab676355"
+            "requires": "1.0.0-83bacfc52569459a4a654727cad2546820cb0d6a"
           }
         }
       ],
@@ -35,11 +35,11 @@
         {
           "name": "camera_android_profile-1.0.aar",
           "url": "camera_android_profile-1.0.aar",
-          "size": 122493,
-          "sha512": "8dd39c1bd2ef269a0e1320345a2efe2ee6a85948a4889ea10bfa49850dee3cb992049e34b99fa1553d447a3832563dc374d97b15f9eed93a5740e674e3f5f5ce",
-          "sha256": "8afa9d6289f7874d077d12b82f4b19167cf2d9701e1b2bb8db064c74b512dc26",
-          "sha1": "d078c181ed1591d6632a400aa39e27625cccebb5",
-          "md5": "4d869e2d914a2aea7e1c8bee50292d71"
+          "size": 159412,
+          "sha512": "8caee862d443aab0525d872cc8881844e6091df4ab65aef872cdd8f5c01277f935b569cf2994752874ab210e126db42574d1aee48848a69ceccf096a6063b605",
+          "sha256": "36d0f7b84b8f6f95d3302304c6470452fc014210ec1e950bca2a187c25e92767",
+          "sha1": "44a06d3376edb4f79d97c53aa36da0251a237cd7",
+          "md5": "5ed308e81c7acabecae330569fea3cb8"
         }
       ]
     },
@@ -56,14 +56,14 @@
           "group": "io.flutter",
           "module": "flutter_embedding_profile",
           "version": {
-            "requires": "1.0.0-c4cd48e186460b32d44585ce3c103271ab676355"
+            "requires": "1.0.0-83bacfc52569459a4a654727cad2546820cb0d6a"
           }
         },
         {
           "group": "androidx.annotation",
           "module": "annotation",
           "version": {
-            "requires": "1.7.1"
+            "requires": "1.9.1"
           }
         },
         {
@@ -78,11 +78,51 @@
         {
           "name": "camera_android_profile-1.0.aar",
           "url": "camera_android_profile-1.0.aar",
-          "size": 122493,
-          "sha512": "8dd39c1bd2ef269a0e1320345a2efe2ee6a85948a4889ea10bfa49850dee3cb992049e34b99fa1553d447a3832563dc374d97b15f9eed93a5740e674e3f5f5ce",
-          "sha256": "8afa9d6289f7874d077d12b82f4b19167cf2d9701e1b2bb8db064c74b512dc26",
-          "sha1": "d078c181ed1591d6632a400aa39e27625cccebb5",
-          "md5": "4d869e2d914a2aea7e1c8bee50292d71"
+          "size": 159412,
+          "sha512": "8caee862d443aab0525d872cc8881844e6091df4ab65aef872cdd8f5c01277f935b569cf2994752874ab210e126db42574d1aee48848a69ceccf096a6063b605",
+          "sha256": "36d0f7b84b8f6f95d3302304c6470452fc014210ec1e950bca2a187c25e92767",
+          "sha1": "44a06d3376edb4f79d97c53aa36da0251a237cd7",
+          "md5": "5ed308e81c7acabecae330569fea3cb8"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "camera_android_profile-1.0-sources.jar",
+          "url": "camera_android_profile-1.0-sources.jar",
+          "size": 87758,
+          "sha512": "286e3274af4a12021ddbab89c439a7c2a42557a8acf9f5c8252f5c46e76fddfbc4782c650193dd7bbe084c01cd0743c4597e645699015de4b2301480097ffd14",
+          "sha256": "4ebebea8ca65e9adff57b46b132a0066ff7cc710e2cc8d74c5c8b3e3e7e34e6b",
+          "sha1": "0b9d2a4079d9643a3e564350bd505fdcf1791862",
+          "md5": "0a54211bc5c38a32a36552422ea90d90"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "camera_android_profile-1.0-javadoc.jar",
+          "url": "camera_android_profile-1.0-javadoc.jar",
+          "size": 596162,
+          "sha512": "036dbd9891942d875f3161d729392d9d5dd258304e8db47e07046ea9f74ed8ff46fdfdea283e296f22b413e49e5b97751374a9b3e6869141e9c438e3c77752fd",
+          "sha256": "2ef2fb221ee0c808a555c5383379a76caa72c8975de26f57e1e1ece9d439e9f2",
+          "sha1": "a0a5b1e540d26372b5c3a6852f50856ba26a8d95",
+          "md5": "abad7d545be76d0286ad7c71901c130e"
         }
       ]
     }

@@ -15,36 +15,36 @@
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>flutter_embedding_debug</artifactId>
-      <version>1.0.0-c4cd48e186460b32d44585ce3c103271ab676355</version>
+      <version>1.0.0-83bacfc52569459a4a654727cad2546820cb0d6a</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>armeabi_v7a_debug</artifactId>
-      <version>1.0.0-c4cd48e186460b32d44585ce3c103271ab676355</version>
+      <version>1.0.0-83bacfc52569459a4a654727cad2546820cb0d6a</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>arm64_v8a_debug</artifactId>
-      <version>1.0.0-c4cd48e186460b32d44585ce3c103271ab676355</version>
+      <version>1.0.0-83bacfc52569459a4a654727cad2546820cb0d6a</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>x86_64_debug</artifactId>
-      <version>1.0.0-c4cd48e186460b32d44585ce3c103271ab676355</version>
+      <version>1.0.0-83bacfc52569459a4a654727cad2546820cb0d6a</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>io.flutter</groupId>
-      <artifactId>x86_debug</artifactId>
-      <version>1.0.0-c4cd48e186460b32d44585ce3c103271ab676355</version>
+      <groupId>xyz.luan.audioplayers</groupId>
+      <artifactId>audioplayers_android_debug</artifactId>
+      <version>1.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>io.flutter.plugins.flutter_plugin_android_lifecycle</groupId>
-      <artifactId>flutter_plugin_android_lifecycle_debug</artifactId>
+      <groupId>com.microblink.blinkid.flutter</groupId>
+      <artifactId>blinkid_flutter_debug</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
     </dependency>
@@ -61,8 +61,62 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>io.flutter.plugins.flutter_plugin_android_lifecycle</groupId>
+      <artifactId>flutter_plugin_android_lifecycle_debug</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google_mlkit_commons</groupId>
+      <artifactId>google_mlkit_commons_debug</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google_mlkit_face_detection</groupId>
+      <artifactId>google_mlkit_face_detection_debug</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>io.flutter.plugins.imagepicker</groupId>
       <artifactId>image_picker_android_debug</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>dev.steenbakker.mobile_scanner</groupId>
+      <artifactId>mobile_scanner_debug</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter.plugins.pathprovider</groupId>
+      <artifactId>path_provider_android_debug</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.baseflow.permissionhandler</groupId>
+      <artifactId>permission_handler_android_debug</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.aifeii.qrcode.tools</groupId>
+      <artifactId>qr_code_tools_debug</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.llfbandit.record</groupId>
+      <artifactId>record_android_debug</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter.plugins.sharedpreferences</groupId>
+      <artifactId>shared_preferences_android_debug</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
     </dependency>

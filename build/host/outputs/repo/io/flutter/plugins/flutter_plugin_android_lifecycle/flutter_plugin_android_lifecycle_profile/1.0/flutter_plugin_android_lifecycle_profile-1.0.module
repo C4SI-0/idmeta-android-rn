@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "7.5"
+      "version": "8.0"
     }
   },
   "variants": [
@@ -27,7 +27,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_profile",
           "version": {
-            "requires": "1.0.0-c4cd48e186460b32d44585ce3c103271ab676355"
+            "requires": "1.0.0-83bacfc52569459a4a654727cad2546820cb0d6a"
           }
         }
       ],
@@ -35,11 +35,11 @@
         {
           "name": "flutter_plugin_android_lifecycle_profile-1.0.aar",
           "url": "flutter_plugin_android_lifecycle_profile-1.0.aar",
-          "size": 4765,
-          "sha512": "6cc32fcb58a45ec7f72dd23668fead0a727a442d36fac15e5e1fcf6b4fec311bf4bb3c5e2b8c0ee202d2fdc007e0d3d129b2db8023a3f1be7a3ed8b9d347d4bb",
-          "sha256": "073117699765113e8394d20820d0a17f841211f7cf2805e2cca10be09483429d",
-          "sha1": "65efcc35aaaca3a879ffd0af26ed6b2f878fb456",
-          "md5": "1e893690a01ea6475043613423696877"
+          "size": 2477,
+          "sha512": "de534ad6f1266d13690e4c7d9c966086e06661525020d15e0233c9f54cba241bb2739ecc295b6c77f65b4ff3609d52e4bca9e7c7a849af2fae2da584b5360646",
+          "sha256": "008f6a88851ec276c33e2c27d468e80f9d7028ffc17135403be75d28f0a518b9",
+          "sha1": "c679a811511ce75b6412e5cad565b14367daa186",
+          "md5": "2b59d1a1e2aee7a946698f234f594e5d"
         }
       ]
     },
@@ -56,14 +56,14 @@
           "group": "io.flutter",
           "module": "flutter_embedding_profile",
           "version": {
-            "requires": "1.0.0-c4cd48e186460b32d44585ce3c103271ab676355"
+            "requires": "1.0.0-83bacfc52569459a4a654727cad2546820cb0d6a"
           }
         },
         {
           "group": "androidx.annotation",
           "module": "annotation",
           "version": {
-            "requires": "1.7.0"
+            "requires": "1.9.1"
           }
         }
       ],
@@ -71,11 +71,51 @@
         {
           "name": "flutter_plugin_android_lifecycle_profile-1.0.aar",
           "url": "flutter_plugin_android_lifecycle_profile-1.0.aar",
-          "size": 4765,
-          "sha512": "6cc32fcb58a45ec7f72dd23668fead0a727a442d36fac15e5e1fcf6b4fec311bf4bb3c5e2b8c0ee202d2fdc007e0d3d129b2db8023a3f1be7a3ed8b9d347d4bb",
-          "sha256": "073117699765113e8394d20820d0a17f841211f7cf2805e2cca10be09483429d",
-          "sha1": "65efcc35aaaca3a879ffd0af26ed6b2f878fb456",
-          "md5": "1e893690a01ea6475043613423696877"
+          "size": 2477,
+          "sha512": "de534ad6f1266d13690e4c7d9c966086e06661525020d15e0233c9f54cba241bb2739ecc295b6c77f65b4ff3609d52e4bca9e7c7a849af2fae2da584b5360646",
+          "sha256": "008f6a88851ec276c33e2c27d468e80f9d7028ffc17135403be75d28f0a518b9",
+          "sha1": "c679a811511ce75b6412e5cad565b14367daa186",
+          "md5": "2b59d1a1e2aee7a946698f234f594e5d"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_plugin_android_lifecycle_profile-1.0-sources.jar",
+          "url": "flutter_plugin_android_lifecycle_profile-1.0-sources.jar",
+          "size": 2683,
+          "sha512": "a3f7fee602ae01e1fe53ad82c914db15159744a75a0e4f439cdbe5e530abf6d3b431e26802ccd3cf08245278758e1aef335a9e00aec7ded1b1c89a60a53d7915",
+          "sha256": "ea22384264efbced6ae1be61be8aadee870b81c3a1e0b6accc0ef62396aaeae0",
+          "sha1": "1ddcac6e1149d882ff8719e00a4eebfeb282eb36",
+          "md5": "351ed496e751473b57d20e3a693b432d"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_plugin_android_lifecycle_profile-1.0-javadoc.jar",
+          "url": "flutter_plugin_android_lifecycle_profile-1.0-javadoc.jar",
+          "size": 269829,
+          "sha512": "fb1d73e2d36f68cf683c26de7527f02c618f1102c4f172c84b691753777306e05e79eba56b6a6fbf58e2a5fe4fa724091d5e8af142621b333c1e1541396723de",
+          "sha256": "3ee3eaa5ae72e8a2ac43b8b1c636bd06a3cd8eab51647d681428ac4c50b17383",
+          "sha1": "78cf1e9a85777c2da44c1e1c4a83a06bb3fba394",
+          "md5": "637414e7c3a925dac2124afe2ba87540"
         }
       ]
     }

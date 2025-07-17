@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.aifeii.qrcode.tools",
+    "module": "qr_code_tools_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-83bacfc52569459a4a654727cad2546820cb0d6a"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "qr_code_tools_debug-1.0.aar",
+          "url": "qr_code_tools_debug-1.0.aar",
+          "size": 4076,
+          "sha512": "d9be2d3d794efa43d797c1aa529cea17e01e8da877ec34eba1b28ccf6c982d56df776aae2494560c69cd5b2ef88f50e74734c12cef6a847992781442ee07a1f2",
+          "sha256": "9248ae79fce59a4cc8ec06b34a937bd37cbf29df1377c3a1cfb16f0a87a47550",
+          "sha1": "a306f56e8630f69f071e78e81655f92a3a2a7219",
+          "md5": "86b5caf76fb8d4b843217c718d5d714b"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-83bacfc52569459a4a654727cad2546820cb0d6a"
+          }
+        },
+        {
+          "group": "com.google.zxing",
+          "module": "core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "com.google.zxing",
+          "module": "javase",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "qr_code_tools_debug-1.0.aar",
+          "url": "qr_code_tools_debug-1.0.aar",
+          "size": 4076,
+          "sha512": "d9be2d3d794efa43d797c1aa529cea17e01e8da877ec34eba1b28ccf6c982d56df776aae2494560c69cd5b2ef88f50e74734c12cef6a847992781442ee07a1f2",
+          "sha256": "9248ae79fce59a4cc8ec06b34a937bd37cbf29df1377c3a1cfb16f0a87a47550",
+          "sha1": "a306f56e8630f69f071e78e81655f92a3a2a7219",
+          "md5": "86b5caf76fb8d4b843217c718d5d714b"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "qr_code_tools_debug-1.0-sources.jar",
+          "url": "qr_code_tools_debug-1.0-sources.jar",
+          "size": 1874,
+          "sha512": "e280362c067c28a5db20d7fa99ad2ecd6762370b5a386df9f6f0d2dcf6289d519a974a41a061b9f6fb489d4313d25a85648b9dd2e89a715fae4695429612d9bb",
+          "sha256": "6bd098a4930c13e095a769dec6bd903c030f466d93eea561d9884432d45c9188",
+          "sha1": "be0fc595c4a913b3cdf87ac7b046bc40ce843405",
+          "md5": "2ccdb5ce10ce8723c82cf9a6260aa53a"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "qr_code_tools_debug-1.0-javadoc.jar",
+          "url": "qr_code_tools_debug-1.0-javadoc.jar",
+          "size": 262450,
+          "sha512": "c1e517287cfba36692ae5f42e3a54dc07f6f02cd675996651243848a44cc588f789b16141bb7416fcc49bc6871e462c75c31ab875d913cc2ae29cf3001ff5d37",
+          "sha256": "c164f39cc5ad7dac9717576631507dde39eb305f907fb5d65e5f07062aef8f1f",
+          "sha1": "cac8f14b138b02eab535eb48721e5592470a5bc6",
+          "md5": "80de5d758a5d227c8e83b0293c41c222"
+        }
+      ]
+    }
+  ]
+}

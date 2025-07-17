@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "7.5"
+      "version": "8.0"
     }
   },
   "variants": [
@@ -27,7 +27,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_debug",
           "version": {
-            "requires": "1.0.0-c4cd48e186460b32d44585ce3c103271ab676355"
+            "requires": "1.0.0-83bacfc52569459a4a654727cad2546820cb0d6a"
           }
         }
       ],
@@ -35,11 +35,11 @@
         {
           "name": "camera_android_debug-1.0.aar",
           "url": "camera_android_debug-1.0.aar",
-          "size": 129512,
-          "sha512": "91c4ba31720fe5c9bf3bd34065a9d90a055bacfad1484bfbb380b62957b7b5fe51968493a61ec22e86e5694c56330250a574d4f329172b556db03081de110d01",
-          "sha256": "d6667391dfce58dee65ca33935554db66b33fac47dfef7af4e08f8737f56077a",
-          "sha1": "6bc77943dd817cc5e9a851474b61a493cfbe6f52",
-          "md5": "6376696a1d781d9635058299102a8e97"
+          "size": 168487,
+          "sha512": "be7618f4bc535f9eb78aeec714edad88399cfb092f72f5f27a6f0beff2a3c8c7bafe17392f69061bb48dcc5fb7356d5318f546c1421a4c979a5ee0a6126eb351",
+          "sha256": "9a1ea85067ce78699fb36fd24b8a16f2bec8b9531b4f2065081217d2c24eb2ba",
+          "sha1": "72c506d0f3db636f9a456f0678fc867503ecec3a",
+          "md5": "bcb3e9e08d2dff2b508273bd6585c0f6"
         }
       ]
     },
@@ -56,14 +56,14 @@
           "group": "io.flutter",
           "module": "flutter_embedding_debug",
           "version": {
-            "requires": "1.0.0-c4cd48e186460b32d44585ce3c103271ab676355"
+            "requires": "1.0.0-83bacfc52569459a4a654727cad2546820cb0d6a"
           }
         },
         {
           "group": "androidx.annotation",
           "module": "annotation",
           "version": {
-            "requires": "1.7.1"
+            "requires": "1.9.1"
           }
         },
         {
@@ -78,11 +78,51 @@
         {
           "name": "camera_android_debug-1.0.aar",
           "url": "camera_android_debug-1.0.aar",
-          "size": 129512,
-          "sha512": "91c4ba31720fe5c9bf3bd34065a9d90a055bacfad1484bfbb380b62957b7b5fe51968493a61ec22e86e5694c56330250a574d4f329172b556db03081de110d01",
-          "sha256": "d6667391dfce58dee65ca33935554db66b33fac47dfef7af4e08f8737f56077a",
-          "sha1": "6bc77943dd817cc5e9a851474b61a493cfbe6f52",
-          "md5": "6376696a1d781d9635058299102a8e97"
+          "size": 168487,
+          "sha512": "be7618f4bc535f9eb78aeec714edad88399cfb092f72f5f27a6f0beff2a3c8c7bafe17392f69061bb48dcc5fb7356d5318f546c1421a4c979a5ee0a6126eb351",
+          "sha256": "9a1ea85067ce78699fb36fd24b8a16f2bec8b9531b4f2065081217d2c24eb2ba",
+          "sha1": "72c506d0f3db636f9a456f0678fc867503ecec3a",
+          "md5": "bcb3e9e08d2dff2b508273bd6585c0f6"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "camera_android_debug-1.0-sources.jar",
+          "url": "camera_android_debug-1.0-sources.jar",
+          "size": 87770,
+          "sha512": "8733a0e5e7d523d2d1391660ca151aaa40df9e5971dd349f74c3a0914b301a96de5bb2f0ca0036453111af4bd793e6a4a80485a925692020d5e8424fcd060e1a",
+          "sha256": "11199f940c8ec00530c4b7f72af65b5e760e9afe77a0eec70cbc427bdc892e02",
+          "sha1": "ad217bf7a7a1b33d994105f868878a4a5f3ab261",
+          "md5": "9806741717a7ed1488e61ce54174ac06"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "camera_android_debug-1.0-javadoc.jar",
+          "url": "camera_android_debug-1.0-javadoc.jar",
+          "size": 605556,
+          "sha512": "58ef0c845a8952a07c3bb0427ac2b6a4250847a22d63c75b7ce9816de78ed4c5657e3bffe6a0c689cbe057ef468acae67dbcd585fcda3adf1bf719c98af7cbbb",
+          "sha256": "c9ffa6984be22f283cce123134c5df7d1b9f6dfac9c460c57d7fbb84c8399961",
+          "sha1": "b318100186236fb60d4a8b1623cef738ea6721a2",
+          "md5": "dfa2a7804ebbe24c3a82d86283b32f4e"
         }
       ]
     }

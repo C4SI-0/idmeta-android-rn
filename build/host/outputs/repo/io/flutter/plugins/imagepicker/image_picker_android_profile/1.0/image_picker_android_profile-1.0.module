@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "7.5"
+      "version": "8.0"
     }
   },
   "variants": [
@@ -27,7 +27,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_profile",
           "version": {
-            "requires": "1.0.0-c4cd48e186460b32d44585ce3c103271ab676355"
+            "requires": "1.0.0-83bacfc52569459a4a654727cad2546820cb0d6a"
           }
         }
       ],
@@ -35,11 +35,11 @@
         {
           "name": "image_picker_android_profile-1.0.aar",
           "url": "image_picker_android_profile-1.0.aar",
-          "size": 67086,
-          "sha512": "82d86aeb52e0ae246be97d1ccf69801950dc3e7d35692befa9bb3583a5e5c9b2097f16f9a1ec78d4ff7b6813b6d0738013d7a1492def43538721304e7bf8fc86",
-          "sha256": "3a20f23ac2f3536bb149b324bd69073150d990e2642d1f55b58c2af3151f1b0f",
-          "sha1": "47262deec8cf7ddc85b4b04a37b178c53171c34e",
-          "md5": "b6b163ae17520ecf321289d31ab5d302"
+          "size": 69948,
+          "sha512": "f9acbb7cc9e77e2ed1e2acd2fcddd686fae968f42713b89c69d6dd8a5568e6fd759c1a4754231af8be2093f46160adc966c923ada40e13e05df2bbbf29e55ee5",
+          "sha256": "1978813447a2553ea7366a829ded17fdb3713ee5fdb1ed562586b8c08506c275",
+          "sha1": "e8d8955486a3b57cb30a8bea95031accbc18be59",
+          "md5": "09448bf8ffd36f39748505625124bb88"
         }
       ]
     },
@@ -56,21 +56,21 @@
           "group": "io.flutter",
           "module": "flutter_embedding_profile",
           "version": {
-            "requires": "1.0.0-c4cd48e186460b32d44585ce3c103271ab676355"
+            "requires": "1.0.0-83bacfc52569459a4a654727cad2546820cb0d6a"
           }
         },
         {
           "group": "androidx.core",
           "module": "core",
           "version": {
-            "requires": "1.10.1"
+            "requires": "1.13.1"
           }
         },
         {
           "group": "androidx.annotation",
           "module": "annotation",
           "version": {
-            "requires": "1.7.1"
+            "requires": "1.9.1"
           }
         },
         {
@@ -84,19 +84,8 @@
           "group": "androidx.activity",
           "module": "activity",
           "version": {
-            "requires": "1.7.2"
+            "requires": "1.9.3"
           }
-        },
-        {
-          "group": "org.jetbrains.kotlin",
-          "module": "kotlin-bom",
-          "version": {
-            "requires": "1.8.22"
-          },
-          "attributes": {
-            "org.gradle.category": "platform"
-          },
-          "endorseStrictVersions": true
         },
         {
           "group": "io.flutter.plugins.flutter_plugin_android_lifecycle",
@@ -110,11 +99,51 @@
         {
           "name": "image_picker_android_profile-1.0.aar",
           "url": "image_picker_android_profile-1.0.aar",
-          "size": 67086,
-          "sha512": "82d86aeb52e0ae246be97d1ccf69801950dc3e7d35692befa9bb3583a5e5c9b2097f16f9a1ec78d4ff7b6813b6d0738013d7a1492def43538721304e7bf8fc86",
-          "sha256": "3a20f23ac2f3536bb149b324bd69073150d990e2642d1f55b58c2af3151f1b0f",
-          "sha1": "47262deec8cf7ddc85b4b04a37b178c53171c34e",
-          "md5": "b6b163ae17520ecf321289d31ab5d302"
+          "size": 69948,
+          "sha512": "f9acbb7cc9e77e2ed1e2acd2fcddd686fae968f42713b89c69d6dd8a5568e6fd759c1a4754231af8be2093f46160adc966c923ada40e13e05df2bbbf29e55ee5",
+          "sha256": "1978813447a2553ea7366a829ded17fdb3713ee5fdb1ed562586b8c08506c275",
+          "sha1": "e8d8955486a3b57cb30a8bea95031accbc18be59",
+          "md5": "09448bf8ffd36f39748505625124bb88"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "image_picker_android_profile-1.0-sources.jar",
+          "url": "image_picker_android_profile-1.0-sources.jar",
+          "size": 26710,
+          "sha512": "372c55c93aa9de3bc39caaa735c8e9f72983fb2a602de7ddd3be0527b8ab1f43bb8f5583d2ec4a8e3b61d6eb874e7e4cf34c0f725649e2d8806f4a45f0225e35",
+          "sha256": "3cab7df6aafaac4936a8156024350f81aff0ce6ff88a827513403c895316ab3e",
+          "sha1": "50f46bd80d3ea3246d7442d73c95694a4deafe04",
+          "md5": "0651b7414a10b08945561bd62b096625"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "image_picker_android_profile-1.0-javadoc.jar",
+          "url": "image_picker_android_profile-1.0-javadoc.jar",
+          "size": 379728,
+          "sha512": "72720167dea5b0715243752c6b3415eefa2d382abe02654c68abad94298db92b29dfa9dc8a893e297c6d109a98a428eff95b6b5c02e1983775804aa087d5dded",
+          "sha256": "c8ab0371f3093df120a4b82b5bbafed877d0e1a105769e938258e2a83abf3952",
+          "sha1": "a7bf53e2ca6ee88378d9dff2b3669e7147261ea6",
+          "md5": "16405e35aa3ed8af50a1b16630dd2c5e"
         }
       ]
     }

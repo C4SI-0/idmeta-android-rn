@@ -11,34 +11,23 @@
   <artifactId>image_picker_android_debug</artifactId>
   <version>1.0</version>
   <packaging>aar</packaging>
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>org.jetbrains.kotlin</groupId>
-        <artifactId>kotlin-bom</artifactId>
-        <version>1.8.22</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
   <dependencies>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>flutter_embedding_debug</artifactId>
-      <version>1.0.0-c4cd48e186460b32d44585ce3c103271ab676355</version>
+      <version>1.0.0-83bacfc52569459a4a654727cad2546820cb0d6a</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.core</groupId>
       <artifactId>core</artifactId>
-      <version>1.10.1</version>
+      <version>1.13.1</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>androidx.annotation</groupId>
       <artifactId>annotation</artifactId>
-      <version>1.7.1</version>
+      <version>1.9.1</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -50,7 +39,7 @@
     <dependency>
       <groupId>androidx.activity</groupId>
       <artifactId>activity</artifactId>
-      <version>1.7.2</version>
+      <version>1.9.3</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>

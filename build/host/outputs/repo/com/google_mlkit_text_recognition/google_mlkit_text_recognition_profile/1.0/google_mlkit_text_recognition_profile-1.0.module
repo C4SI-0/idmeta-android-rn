@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.google_mlkit_text_recognition",
+    "module": "google_mlkit_text_recognition_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-83bacfc52569459a4a654727cad2546820cb0d6a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "google_mlkit_text_recognition_profile-1.0.aar",
+          "url": "google_mlkit_text_recognition_profile-1.0.aar",
+          "size": 6485,
+          "sha512": "f21576e7ecb8fcfe76f6c8b99c4b407e21dd0dfeb10dfcd6b769ad7eae58087b4669f0515fbda6016e1d8a23d354772bc31254a0ad180f4c5a936dcf6035403a",
+          "sha256": "06b98eb8571de1bdd2ed1ba0d35a6357e06eed34f0fe5b17d6ed4511926e42d1",
+          "sha1": "a9f647b6a809506251700132be8c6d74c8ddd445",
+          "md5": "aa389f97e0c4125b256a4c9e6e5e8692"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-83bacfc52569459a4a654727cad2546820cb0d6a"
+          }
+        },
+        {
+          "group": "com.google.mlkit",
+          "module": "text-recognition",
+          "version": {
+            "requires": "16.0.0"
+          }
+        },
+        {
+          "group": "com.google_mlkit_commons",
+          "module": "google_mlkit_commons_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "google_mlkit_text_recognition_profile-1.0.aar",
+          "url": "google_mlkit_text_recognition_profile-1.0.aar",
+          "size": 6485,
+          "sha512": "f21576e7ecb8fcfe76f6c8b99c4b407e21dd0dfeb10dfcd6b769ad7eae58087b4669f0515fbda6016e1d8a23d354772bc31254a0ad180f4c5a936dcf6035403a",
+          "sha256": "06b98eb8571de1bdd2ed1ba0d35a6357e06eed34f0fe5b17d6ed4511926e42d1",
+          "sha1": "a9f647b6a809506251700132be8c6d74c8ddd445",
+          "md5": "aa389f97e0c4125b256a4c9e6e5e8692"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "google_mlkit_text_recognition_profile-1.0-sources.jar",
+          "url": "google_mlkit_text_recognition_profile-1.0-sources.jar",
+          "size": 2980,
+          "sha512": "2c6d633c26b12d2881cc42fc9c686ab6145977bbaab65d8aea2c0a2a02a58cdfd509ba30efcc3066c61b7f2c39a999f82281c91867a333c475e061b1e6eb8ad6",
+          "sha256": "5cb8d7b77feff33cc4e593e913e7a12fc5383cb1b1b9f38f840d479402510dff",
+          "sha1": "cb6909cb023209f90918bd23d848dff4d393e38c",
+          "md5": "70dabebed7cef280841b97e6bdfc9228"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "google_mlkit_text_recognition_profile-1.0-javadoc.jar",
+          "url": "google_mlkit_text_recognition_profile-1.0-javadoc.jar",
+          "size": 266843,
+          "sha512": "69e8bdfa3926a89a833d9080c8790191edda470746acbe393f60219dcc6fadc9da07a304811dff74176739ee4eb2bb49295bcac2e8f0a1cf2a156bfaab812962",
+          "sha256": "960671ab4e690ea409a167cbc3a9159414776b424ec794d0a8f70dba2caded79",
+          "sha1": "d08af9c9a59d033997d22f7cd0de05bb43a81250",
+          "md5": "3d655925f5ef4b6d47796dd1eed8c3fb"
+        }
+      ]
+    }
+  ]
+}
