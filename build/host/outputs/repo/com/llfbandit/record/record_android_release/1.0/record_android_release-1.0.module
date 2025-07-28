@@ -118,11 +118,11 @@
         {
           "name": "record_android_release-1.0-javadoc.jar",
           "url": "record_android_release-1.0-javadoc.jar",
-          "size": 475915,
-          "sha512": "85f617df8d7236b52017c928444ac98f8d48c324680cd4a4b32339302fca8a78bcea99085613cfe7f956f854488e594f185cbc3b1fc9b0e12e4c31e9e81a6f75",
-          "sha256": "7a0ebb023cbbb7d41503c0f2e39d67498a31539277c29e55a186615d52a5b857",
-          "sha1": "3ea5a7ac28b65af3561407349ff4fa994e449b65",
-          "md5": "feaf91cd57e335434088c053f82732b2"
+          "size": 475504,
+          "sha512": "0d694da1ec06572c18bf8453e5020e4a21ae01e8f5064b292547bd4bb2ffa8d66026337f224cf42589d074883f8481fe7a8e90b6de0664a8011268486d40d3fa",
+          "sha256": "4202a68f3f9bd395ba57ad3e31dbd5842043d12889852035883645601beb132a",
+          "sha1": "cb433131d505d2653125315350b8ea7a8cc88ac5",
+          "md5": "e63984a9da22d6b8a002deb636ac96d7"
         }
       ]
     }
